@@ -97,6 +97,8 @@ dotnet run
 
 Open Swagger UI: **`http://localhost:5209/swagger`** *(port may differ — check terminal output)*
 
+<img width="1920" height="717" alt="swagger" src="https://github.com/user-attachments/assets/c3650d59-cece-4da5-a696-8d48f4583889" />
+
 ---
 
 ## Configuration
