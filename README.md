@@ -1,11 +1,35 @@
-# LauncherHero Starter
+# LauncherHero Starter — Production-Ready .NET 8 Web API Template
 
 > A minimal, production-ready **.NET 8 Web API** template — zero complexity, zero boilerplate decisions. Clone, configure, ship.
+
+ASP.NET Core 8 boilerplate with EF Core, PostgreSQL, JWT Authentication, and Docker — single-project, no unnecessary abstraction.
 
 ![.NET](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-ready-2496ED?logo=docker&logoColor=white)
 ![License](https://img.shields.io/badge/license-MIT-green)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Repo Size](https://img.shields.io/github/repo-size/mturan07/launcherhero-starter)
+
+---
+
+## Table of Contents
+
+- [Key Problems Solved](#key-problems-solved)
+- [What's Included](#whats-included)
+- [Quick Start](#quick-start)
+- [Configuration](#configuration)
+- [API Reference](#api-reference)
+- [Project Structure](#project-structure)
+- [Extending This Template](#extending-this-template)
+
+---
+
+## Key Problems Solved
+
+- **JWT setup takes too long** — Register, login, and token validation are wired up and ready to use.
+- **PostgreSQL + EF Core from scratch is tedious** — Migrations are code-first and auto-applied on startup.
+- **Docker config for .NET is tricky** — Multi-stage Alpine build with a non-root user and `docker-compose` included.
 
 ---
 
