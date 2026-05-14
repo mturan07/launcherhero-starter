@@ -1,0 +1,27 @@
+### Get all users
+GET https://localhost:7200/api/users
+
+### Get user by id
+GET https://localhost:7200/api/users/1
+
+### Create user
+POST https://localhost:7200/api/users
+Content-Type: application/json
+
+{
+  "name": "Alice",
+  "email": "alice@example.com"
+}
+
+### Update user
+PUT https://localhost:7200/api/users/1
+Content-Type: application/json
+
+{
+  "id": 1,
+  "name": "Alice M.",
+  "email": "alice.m@example.com"
+}
+
+### Delete user
+DELETE https://localhost:7200/api/users/1
